@@ -10,4 +10,41 @@
     android:paddingTop="16dp"
     android:paddingBottom="16dp"
     tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="sans-serif"
+        android:text="@string/make_everday_decisions_easily"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/image_background"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/magic_ball1"/>
+    <ImageView
+        android:id="@+id/image_predict"
+        android:layout_width="150dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/magic_ball2"/>
+    <Button
+        android:id="@+id/button_ask"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="@string/ask"
+        android:textSize="24sp"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
 </RelativeLayout>
